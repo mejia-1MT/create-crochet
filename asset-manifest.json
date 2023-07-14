@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/create-crochet/static/css/main.e783da6d.css",
-    "main.js": "/create-crochet/static/js/main.3a1bd7d1.js",
+    "main.js": "/create-crochet/static/js/main.32ba052f.js",
     "static/media/img_peripherals-banner.jpg": "/create-crochet/static/media/img_peripherals-banner.ac3c5232f9166c7f1434.jpg",
     "static/media/img_polaroid-3.jpg": "/create-crochet/static/media/img_polaroid-3.d2e8ae29f38085cd52dd.jpg",
     "static/media/img_polaroid-4.jpg": "/create-crochet/static/media/img_polaroid-4.a6db8ba501545b2451f1.jpg",
@@ -48,10 +48,10 @@
     "static/media/img_size-4.jpg": "/create-crochet/static/media/img_size-4.4bea139af5fee5231c15.jpg",
     "index.html": "/create-crochet/index.html",
     "main.e783da6d.css.map": "/create-crochet/static/css/main.e783da6d.css.map",
-    "main.3a1bd7d1.js.map": "/create-crochet/static/js/main.3a1bd7d1.js.map"
+    "main.32ba052f.js.map": "/create-crochet/static/js/main.32ba052f.js.map"
   },
   "entrypoints": [
     "static/css/main.e783da6d.css",
-    "static/js/main.3a1bd7d1.js"
+    "static/js/main.32ba052f.js"
   ]
 }
