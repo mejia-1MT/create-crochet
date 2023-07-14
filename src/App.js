@@ -6,21 +6,22 @@ import Equipments from'./pages/Equipments';
 import Tutorials from './pages/Tutorials';
 import Terms from './pages/Terms';
 import Patterns from './pages/Patterns'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
+      <BrowserRouter basename='/create-crochet'>
         <Navbar />
         <Routes>
-          <Route path='/create-crochet/' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/equipments' element={<Equipments />} />
           <Route path='/tutorials' element={<Tutorials />} />
           <Route path='/terms' element={<Terms />} />
           <Route path='/patterns' element={<Patterns />} />
         </Routes>
         <Footer />
-
+      </BrowserRouter>
     </div>
   );
 }
