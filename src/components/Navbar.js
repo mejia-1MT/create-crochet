@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className='navbar'>
         <div className='leftSide' id='close'>
-            <Link to='/'><img src={LogoG} alt='Logo'/></Link>
+            <Link to='/create-crochet'><img src={LogoG} alt='Logo'/></Link>
         </div>
         <div className='rightSide'>
             <Link to='/equipments'>Equipments</Link>
