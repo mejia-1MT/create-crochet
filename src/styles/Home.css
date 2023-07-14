@@ -1,0 +1,104 @@
+.home {
+    width: 100%;
+} 
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height:38vw;
+    background-image: url('../assets/images/img_dashboard.jpg');
+    background-position: center, center;
+    background-repeat: no-repeat, repeat-x;
+    background-size: cover;
+}
+
+.greeting {
+
+    min-height: 38vw;
+    background: rgba(0, 0, 0, 0.397);
+    backdrop-filter:blur(1px);
+    color: white;
+}
+
+.greeting h1 {
+    margin-top: 170px;
+    font-size: 8rem;
+    font-weight:400;
+    font-family: 'Reenie Beanie', sans-serif;
+}
+
+.greeting p {
+    margin-top: -70px;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* boxes */
+
+.dashboard {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vw 0;
+}
+
+.dashboard .welcome {
+    font-family: "Reenie Beanie", sans-serif;
+    margin-bottom: 8vw;
+    font-size:4rem;
+    font-weight:500;
+
+}
+
+.boxes {
+    margin: 0px 7rem;
+    display: grid;
+    gap: 3rem 1rem;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.box { 
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    box-shadow:0 0px 10px rgba(0, 0, 0, 0.471);
+    border-radius: 7px;    
+}
+
+.text {
+    margin: 30px 40px 20px;
+    
+}
+.title {
+    font-size: 1.8rem;
+    font-weight:600;
+    display: inline;
+}
+
+.description {
+    font-size: 1.2rem;
+    font-weight:500;
+}
+
+
+.box img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60%; /* Set the desired fixed height */
+    object-fit: cover;
+}

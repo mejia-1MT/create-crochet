@@ -1,0 +1,56 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem 1rem;
+    width: 100%;
+    height: 70%;
+    background-color: #455726;
+    
+}
+.footer .leftSide {
+    margin-left: 7rem;
+    flex: 50%;
+
+}
+
+.title {
+    margin-top: 2rem ;
+    width: 535px;
+}
+
+.leftSide .message, .leftSide .advertise {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight:200;
+    font-size:22px;
+
+}
+
+.socials {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2rem 8rem 3rem;
+}
+
+.socials img {
+    width: 3vw;
+}
+
+.footer .rightSide {
+    flex: 50%;
+    margin-left: 2rem;
+    
+}
+
+.rightSide .signUpText {
+    margin: 32px 0;
+    font-family: 'Reenie Beanie', sans-serif;
+    color: white;
+    font-size:59px;
+}
+
+.rightSide input {
+    font-size: 22px;
+    height: 2rem;
+    width: 32rem;
+}

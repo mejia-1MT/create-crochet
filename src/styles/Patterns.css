@@ -1,0 +1,111 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.patterns {
+    margin-bottom: 3rem;
+    margin: 3rem 6rem;
+}
+.patterns-introduction {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    gap: 1rem 1rem;
+    
+}
+
+.patterns-introduction .patterns-leftSide {
+    flex: 60%;
+}
+
+.patterns-introduction .patterns-leftSide h1 {
+    font-size: 48px;
+    font-family: 'Reenie Beanie', sans-serif;
+    margin-bottom: 20px;
+}
+
+.patterns-briefD {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    font-weight:400;
+    font-size:16px;
+}
+
+
+.patterns-introduction .rightSide {
+    flex: 40%;
+}
+
+.patterns-rightSide p {
+    margin-top: 3rem;
+    font-family: 'Inter', sans-serif;
+    font-size:20px;
+    font-weight: 500;
+}
+
+.patterns-navigator {
+    width: 25vw;
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    background-color: #F1EEE0;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.patterns-navigator a {
+    text-decoration: none;
+    font-size:20px;
+    font-family: 'Inter', sans-serif;
+    color: #455726;
+    padding: 0.25rem;
+}
+
+/*content*/
+
+/*video*/
+.patterns-video-content {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem 1rem;
+}
+
+.patterns-section h1 {
+    font-family: 'Reenie Beanie', sans-serif;
+    font-size: 48px;
+}
+
+.video-variance-container {
+    background-color:black;
+    width: 560px;
+    height: 315px;
+}
+
+
+/*pdf*/
+.patterns-pdf-content {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem 1rem;
+    
+}
+
+.pdf-content-variance {
+    overflow: hidden;
+    text-align: center;
+}
+
+.pdf-content-variance a { 
+    text-decoration: none;
+}
+
+.pdf-content-variance h2 {
+    color:#455726;
+}
+
+.pdf-content-variance img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    
+}
+
+
