@@ -8,8 +8,6 @@ import Terms from './pages/Terms';
 import Patterns from './pages/Patterns'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-function App() {
-  return (
     
 function App() {
   return (
@@ -29,20 +27,5 @@ function App() {
   );
 }
 
-export default App;
-'>
-        <Navbar />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/equipments' element={<Equipments />} />
-          <Route path='/tutorials' element={<Tutorials />} />
-          <Route path='/terms' element={<Terms />} />
-          <Route path='/patterns' element={<Patterns />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
-    </div>
-  );
-}
 
 export default App;
