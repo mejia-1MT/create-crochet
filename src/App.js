@@ -10,8 +10,27 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
+    
+function App() {
+  return (
     <div className="App">
       <BrowserRouter basename='/create-crochet'>
+        <Navbar />
+        <Routes>
+          <Route path='/create-crochet' element={<Home />} />
+          <Route path='/equipments' element={<Equipments />} />
+          <Route path='/tutorials' element={<Tutorials />} />
+          <Route path='/terms' element={<Terms />} />
+          <Route path='/patterns' element={<Patterns />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </div>
+  );
+}
+
+export default App;
+'>
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
