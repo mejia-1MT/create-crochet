@@ -13,7 +13,7 @@ function App() {
     <div className="App">
         <Navbar />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/create-crochet/' element={<Home />} />
           <Route path='/equipments' element={<Equipments />} />
           <Route path='/tutorials' element={<Tutorials />} />
           <Route path='/terms' element={<Terms />} />
